@@ -11,9 +11,10 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Sans" rel="stylesheet">
     <link rel="stylesheet" href="assests/css/reset.css" />
     <link rel="stylesheet" href="assests/css/style.css" />
-    <title>Document</title>
+    <title>Cubs Trivia</title>
   </head>
   <body>
     <!-- Image and text -->
@@ -29,22 +30,17 @@
        
       </a>
     </nav>
-    <div class="jumbotron">
-      <h1 class="display-4">Hello, Cubs Trivia!</h1>  
+    <div class="jumbotron" id="board">
+      <h1 class="display-4" id="title">Hello, Cubs Trivia!</h1>  
     
       <hr class="my-4" />
       
-      <a class="btn btn-primary btn-lg" id="begin" href="#" role="button"
-        >LET'S PLAY BALL</a
-      >
-      <div  class="questionPage" id="special"></div>
+     <button id="begin">LET'S PLAY BALL</button>
+      
+      
     </div>
     </div>  
-    <!-- <div id="time"></div> -->
-
-    <!-- <div  class="questionPage" id="special"></div>
-    </div> -->
-    <!-- <div class="finalScore" id=""></div> -->
+    
     <script src="assests/javascript/app.js"></script>
   </body>
 </html>

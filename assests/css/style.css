@@ -1,7 +1,40 @@
 body {
   background-image: url(cubs.jpg);
+  font-family: "IBM Plex Sans", sans-serif;
+  font-size: 20px;
+
+  font-weight: bold;
 }
 
 .jumbotron {
-  margin: 100px;
+  margin: 150px;
+}
+
+#end {
+  background-color: red;
+  border-color: #007bff;
+  color: white;
+  float: right;
+  font-weight: bold;
+  padding: 15px;
+}
+#begin {
+  background-color: red;
+  border-color: #007bff;
+  color: white;
+  font-weight: bold;
+  padding: 15px;
+}
+#board {
+  text-align: center;
+}
+
+#remaining {
+  color: red;
+  font-size: 25px;
+}
+#counter {
+  color: red;
+  font-size: 25px;
+  background-color: yellow;
 }
